@@ -190,7 +190,7 @@ describe('sum', function(){
         
                 it ('it should return NULL when the array is empty', function(){
                     let arr =[];
-                    assert.isNull(functions.smallest(arr),null);
+                    assert.isNull(functions.smallest(arr));
                 });
 
             });
@@ -200,7 +200,7 @@ describe('sum', function(){
     
                     it ('it should return NULL when the array is empty', function(){
                         let arr =[];
-                        assert.isNull(functions.largest(arr),null);
+                        assert.isNull(functions.largest(arr));
                     });
 
                     it ('it should return 9 when the array is [6,7,9]', function(){
